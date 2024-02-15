@@ -2,10 +2,12 @@
 
 To create database using Entity Framework's code-first approach:
 
-Step 1:
+Step 1: Verify string connection to SQL server Database in appsettings.json
+
+Step 2:
  dotnet ef migrations add InitialCreate --project RapidPayAuthSystem
  
-Step 2:
+Step 3:
   dotnet ef database update  --project RapidPayAuthSystem
 
 
